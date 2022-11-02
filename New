@@ -1,0 +1,8 @@
+https://miro.medium.com/max/4128/0*VsaGvGskvJa20hZa.png
+
+
+#!python export.py --weights runs/train/exp2/weights/best.pt --include tflite --int8 --img 416 --data data/coco128.yaml
+
+
+
+!python export.py --weights runs/train/exp/weights/best.pt --include tflite --int8 --img 416 --data dataset.yaml
